@@ -4,8 +4,8 @@ class Header extends Component {
   render() {
     return (
       <header className="header">
-        <h1>Mi Página Personal</h1>
-        <p>Desarrollador Web Fullstack en formación</p>
+        <h1>Paula Vegas</h1>
+        <p>Fullstack Developer in Training</p>
       </header>
     );
   }

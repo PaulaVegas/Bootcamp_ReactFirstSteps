@@ -5,15 +5,15 @@ class Home extends Component {
     return (
       <main className="home">
         <section className="about">
-          <h2>Sobre mí</h2>
+          <h2>About me</h2>
           <p>
-            ¡Hola! Soy Paula, estudiante de desarrollo web y entusiasta del
-            diseño, el código limpio y la mejora continua. 
+            Hi!I'm Paula, web development student and enthusiast of
+            design, clean code, and continuous improvement.
           </p>
         </section>
 
         <section className="skills">
-          <h3>Tecnologías que manejo:</h3>
+          <h3>Tech stack</h3>
           <ul>
             <li>HTML, CSS, JavaScript</li>
             <li>React, Node.js, Express</li>

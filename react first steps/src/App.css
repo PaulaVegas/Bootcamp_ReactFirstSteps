@@ -3,11 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --color-bg: #F9F9F9;
+  --color-primary: #5b589996;
+  --color-secondary: #22C55E;
+  --color-accent: #F59E0B;
+  --color-text: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-white: #FFFFFF;
+}
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #c6f1b78b;
-  color: #333;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   line-height: 1.6;
 }
 
@@ -18,8 +27,8 @@ body {
 }
 
 .header {
-  background-color: #1c3020;
-  color: #f7f9f7d2;
+  background-color: var(--color-primary);
+  color: var(--color-text);
   padding: 2rem;
   text-align: center;
 }
@@ -75,7 +84,7 @@ body {
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em color-mix(in srgb, var(--color-secondary), var(--color-accent)));
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
